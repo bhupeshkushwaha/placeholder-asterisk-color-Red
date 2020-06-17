@@ -38,21 +38,21 @@ placeholder asterisk color Red
 </div>
 ####################################################
 <script>
-    /* placeholder asterisk color Red */
-		$('.palceholder').click(function() {
-		  $(this).siblings('input').focus();
-		});
+	/* placeholder asterisk color Red */
+	$('.palceholder').click(function() {
+	  $(this).siblings('input').focus();
+	});
 
-		$('.form-palceholder-control').focus(function() {
-		  $(this).siblings('.palceholder').hide();
-		});
+	$('.form-palceholder-control').focus(function() {
+	  $(this).siblings('.palceholder').hide();
+	});
 
-		$('.form-palceholder-control').blur(function() {
-		  var $this = $(this);
-		  if ($this.val().length == 0)
-		    $(this).siblings('.palceholder').show();
-		});
+	$('.form-palceholder-control').blur(function() {
+	  var $this = $(this);
+	  if ($this.val().length == 0)
+	    $(this).siblings('.palceholder').show();
+	});
 
-		$('.form-palceholder-control').blur();
+	$('.form-palceholder-control').blur();
 </script>
 ~~~
