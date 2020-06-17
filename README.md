@@ -4,6 +4,7 @@ placeholder asterisk color Red
 <style type="text/css">
 .form-palceholder {
   position: relative;
+  font-size: 1rem;
 }
 .form-palceholder .palceholder {
   position: absolute;
